@@ -2,18 +2,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f19141;
+    background-image: url("media/capa.jpg");
 }
 
 header {
-    background-color: #f15b2d;
+    background-color: #fff;
     color: #fff;
     text-align: center;
     padding: 1em;
 }
 
 nav {
-    background-color: #444444c5;
+    background-color: #0B567B;
     padding: 0.5em;
     height: 50px;
     text-align: center;
@@ -38,7 +38,7 @@ article {
     border: 1px solid #ddd;
     border-radius: 5px;
     overflow: hidden;
-    background-color: coral;
+    background-color: #83b6b960;
     width: 100%;
     height: auto;
 }
@@ -50,7 +50,7 @@ article img {
 }
 
 footer {
-    background-color: #333;
+    background-color: #0B567B;
     color: #fff;
     text-align: center;
     padding: 1em;
