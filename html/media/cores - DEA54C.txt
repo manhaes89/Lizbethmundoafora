@@ -1,0 +1,4 @@
+cores - DEA54C
+	916446
+	EF6511
+	DEA54C
