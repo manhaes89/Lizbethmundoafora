@@ -7,10 +7,10 @@
     <title>Lizbeth Mundo Afora</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
     <header>
-        
-        <picture>
+        <picture id="imagem-fundo">
             <source media="(max-width:750px)" srcset="media/logo-animada3-300p.gif" type="image/gif">
             <source media="(max-width:1050px)" srcset="media/logo-animada3-700p.gif" type="image/gif">
             <img src="media/logo-animada3-1050p.gif" alt="logo">
@@ -18,8 +18,22 @@
     </header>
 
     <nav>
-        <a href="#destinations">Destinos</a>
-        <a href="#tips">Países</a>
+        <div class="dropdown">
+            <button class="dropbtn">Destinos</button>
+            <div class="dropdown-content">
+                <a href="#">Link1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div> 
+        <div class="dropdown">
+            <button class="dropbtn">Países</button>
+            <div class="dropdown-content">
+                <a href="#peru">Peru</a>
+                <a href="#">Brasil</a>
+                <a href="#">Chile</a>
+            </div>
+        </div>
         <a href="#contact">Contato</a>
     </nav>
 
@@ -37,7 +51,8 @@
                                  </iframe>
                                 </span>
                 <span id="arequipa"><iframe width="350" height="200" src="https://www.youtube.com/embed/8zhDnHZYqNU?si=UOFdUiLre8F7hXxl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></span>
-                <p>Descrição do destino.</p>
+                <h2><bold>Descrição do destino.</bold></h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam beatae asperiores neque laborum repellendus amet. Blanditiis odit laborum perspiciatis amet laboriosam similique ex quaerat aut ratione, quo, delectus iure distinctio.</p>
             </article>
         </div>
 
