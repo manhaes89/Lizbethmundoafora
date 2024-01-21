@@ -2,22 +2,23 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url("media/capa.jpg");
+    background-color:#fff ;
 }
 
 header {
-    background-color: #fff;
-    color: #fff;
+    background-color: #FCF7F0;
+    color: #F8D1C7;
     text-align: center;
-    padding: 1em;
+    padding: 0%;
 }
 
 nav {
-    background-color: #0B567B;
+    background-color: #D76653;
     padding: 0.5em;
-    height: 50px;
+    height: 30px;
     text-align: center;
     margin: auto;
+    border-radius: 10px;
 }
 
 nav a {
@@ -38,7 +39,7 @@ article {
     border: 1px solid #ddd;
     border-radius: 5px;
     overflow: hidden;
-    background-color: #83b6b960;
+    background-color: #F8D1C7;
     width: 100%;
     height: auto;
 }
@@ -50,7 +51,7 @@ article img {
 }
 
 footer {
-    background-color: #0B567B;
+    background-color: #D76653;
     color: #fff;
     text-align: center;
     padding: 1em;
