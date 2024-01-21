@@ -6,13 +6,14 @@ body {
 }
 
 header {
-    background-color: #F8D1C7;
+    background-color: #FCDCCD;
     color: #F8D1C7;
     text-align: center;
     padding: 0%;
 }
 
 nav {
+    position: relative;
     background-color: #D76653;
     padding: 0.5em;
     height: 30px;
