@@ -2,28 +2,31 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:#fff ;
+    background-color:#FFFFFF ;
 }
 
 header {
-    background-color: #FCDCCD;
-    color: #F8D1C7;
+    background-color: #525A43;
+    color: #FFFFFF;
     text-align: center;
     padding: 0%;
+    width: 100%;
 }
 
 nav {
     position: relative;
-    background-color: #D76653;
+    background-color: #ffffff;
+    color: #000000;
     padding: 0.5em;
     height: 50px;
     text-align: center;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 5px;
+    border: 4px #525A43 solid;
 }
 
 nav a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     font-size: 20px;
     text-align: center;
@@ -33,8 +36,8 @@ nav a {
 
 /* Dropdown Button */
 .dropbtn {
-    background-color: #D76653;
-    color: white;
+    background-color: #EFD18B;
+    color: #000000;
     padding: 16px;
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -51,7 +54,7 @@ nav a {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #D76653;
+    background-color: #B19353;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     border-radius: 10px;
@@ -75,7 +78,7 @@ nav a {
   .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #D76653;}
+  .dropdown:hover .dropbtn {background-color: #B19353;}
 
 section {
     padding: 2em;
@@ -86,41 +89,22 @@ article {
     border: 1px solid #ddd;
     border-radius: 5px;
     overflow: hidden;
-    background-color: #F8D1C7;
+    background-color: #FFFFFF;
     width: 100%;
     height: auto;
     justify-content: center;
     align-items: center;
 }
 
-
-
-h2 {
-    color:white;
-    padding-left: 100px;
-    text-align: center;
-}
-
-h3 {
-    background-color: #2561BF;
-    color:white;
-    padding-left: 1px;
-    text-align: center;
-}
 iframe {
-    
     display: flex;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: #ddd;
     margin: auto;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.61);
 }
 
-.redes ul {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-}
+
 a {
     text-decoration: none;
 }
@@ -129,12 +113,20 @@ ul {
     list-style: none;
 }
 
+h1, h2 {
+    text-align: center;
+    font-family:Impact,'Arial Narrow Bold', sans-serif;
+}
+
 p {
-    background-color: #2561BF;
+    background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
 }
 
 .gallery {
-    background-color: #FCDCCD;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -149,7 +141,7 @@ p {
 }
 
 #peru {
-    background-color: #2561BF;
+    background-color: #EFD18B;
     padding-top: 0%;
     margin: auto;
     height: 30px;
@@ -159,8 +151,8 @@ p {
 }
 
 footer {
-    background-color: #D76653;
-    color: #fff;
+    background-color: #476178;
+    color: #FFFFFF;
     text-align: center;
     padding: 1em;
     position: fixed;
@@ -170,12 +162,26 @@ footer {
     margin: auto;
 }
 
+.redes ul {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: #476178;
+}
+
 #rights {
     align-items: center;
-    background-color: #D76653;
+    background-color: #476178;
     padding-top: 0%;
     padding-bottom: 0%;
+    padding-left: 0%;
     margin-top: 5%;
     margin-bottom: 0%;
+    margin-left: 0px;
+    width: 100%;
     font-size: 20px;
+}
+
+.rights {
+    margin: auto;
 }
